@@ -72,6 +72,11 @@
     background-color: #25d366!important;
     text-align: left;
     color: #FFFFFF;
+    border-radius: 30px;
+}
+
+.whatsapp : hover{
+    color: #161616!mportant;
 }
 
 .btn-square,
