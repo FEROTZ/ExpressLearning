@@ -164,8 +164,9 @@
         opacity: 1;
     }
     .brand img{
-        width: 50%;
-        padding-left: 8px;
+        width: 100px;
+        height:100px
+        padding-left: 20px;
     }
 }
 
