@@ -288,7 +288,7 @@
 }
 
 .service-item:hover * {
-    color: var(--light) !important;
+    color: #161616 !important;
 }
 
 
