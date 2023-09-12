@@ -164,12 +164,15 @@
         opacity: 1;
     }
     .brand img{
-        width: 100px;
+        width: 50%;
         height:100px
         padding-left: 20px;
     }
 }
 
+.responsive{
+    max-width: 25vw;
+}
 
 /*** Header carousel ***/
 @media (max-width: 768px) {
