@@ -468,3 +468,35 @@
     padding-right: 0;
     border-right: none;
 }
+
+p.mb-4 {
+    text-align: justify !important;
+}
+
+//carrusel
+.body.marquee-wrapper {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+.marquee-wrapper {
+    overflow: hidden;
+  }
+  
+  .marquee {
+    display: flex;
+    animation-name: marquee;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    transform: translateX(0);
+    img {
+      padding: 1em;
+    }
+  }
+  
+  @keyframes marquee {
+    from {transform: translateX(0);}
+    to {transform: translateX(-100%);}
+  }
