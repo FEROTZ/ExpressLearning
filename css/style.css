@@ -164,13 +164,13 @@
         opacity: 1;
     }
     .brand img{
-        width: 90%;
+        width: 100%;
         padding-left: 20px;
     }
 }
 
 .responsive{
-    max-width: 15vw;
+    max-width: 30vw;
 }
 
 /*** Header carousel ***/
@@ -188,14 +188,14 @@
     }
 
     .brand img{
-        width: 80%;
+        width: 100%;
         padding-left: 20px;
     }
 }
 
 @media (max-width: 576px){
     .brand img{
-        max-width: 33vw;
+        max-width: 55vw;
         /* width: 100%; */
         /* height:100%; */
         padding-left: 20px;
@@ -480,6 +480,29 @@ p.mb-4 {
     height: 100vh;
   }
 .marquee-wrapper {
+    overflow: hidden;
+  }
+  
+  .marquee {
+    display: flex;
+    animation-name: marquee;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    transform: translateX(0);
+    img {
+      padding: 1em;
+    }
+  }
+  
+  @keyframes marquee {
+    from {transform: translateX(0);}
+    to {transform: translateX(-100%);}
+  }
+
+  //Carrusel de letras 
+  .marquee-wrapper {
     overflow: hidden;
   }
   
