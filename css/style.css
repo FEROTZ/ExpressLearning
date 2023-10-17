@@ -64,19 +64,19 @@
     height: 48px;
 }
 
-.align-center{
-    text-align:center;
+.align-center {
+    text-align: center;
 }
 
-.whatsapp{
-    background-color: #25d366!important;
+.whatsapp {
+    background-color: #25d366 !important;
     text-align: left;
     color: #FFFFFF;
     border-radius: 30px;
 }
 
-.whatsapp : hover{
-    color: #161616!mportant;
+.whatsapp:hover {
+    color: #161616 !important;
 }
 
 .btn-square,
@@ -116,7 +116,7 @@
 }
 
 @media (max-width: 991.98px) {
-    .navbar-light .navbar-nav .nav-link  {
+    .navbar-light .navbar-nav .nav-link {
         margin-right: 0;
         padding: 10px 0;
     }
@@ -163,13 +163,14 @@
         transition: .5s;
         opacity: 1;
     }
-    .brand img{
+
+    .brand img {
         width: 100%;
         padding-left: 20px;
     }
 }
 
-.responsive{
+.responsive {
     max-width: 30vw;
 }
 
@@ -179,7 +180,7 @@
         position: relative;
         min-height: 500px;
     }
-    
+
     .header-carousel .owl-carousel-item img {
         position: absolute;
         width: 100%;
@@ -187,14 +188,14 @@
         object-fit: cover;
     }
 
-    .brand img{
+    .brand img {
         width: 100%;
         padding-left: 20px;
     }
 }
 
-@media (max-width: 576px){
-    .brand img{
+@media (max-width: 576px) {
+    .brand img {
         max-width: 55vw;
         /* width: 100%; */
         /* height:100%; */
@@ -282,7 +283,7 @@
     background: rgba(15, 23, 43, .7);
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
 
@@ -393,6 +394,7 @@
 }
 
 @media (min-width: 768px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 200px;
@@ -400,6 +402,7 @@
 }
 
 @media (min-width: 992px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 300px;
@@ -512,40 +515,18 @@ p.mb-4 {
     text-align: justify !important;
 }
 
-//carrusel
+/* carrusel */
 .body.marquee-wrapper {
     display: flex;
     align-items: center;
     height: 100vh;
-  }
+}
+
 .marquee-wrapper {
     overflow: hidden;
-  }
-  
-  .marquee {
-    display: flex;
-    animation-name: marquee;
-    animation-duration: 30s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-direction: alternate;
-    transform: translateX(0);
-    img {
-      padding: 1em;
-    }
-  }
-  
-  @keyframes marquee {
-    from {transform: translateX(0);}
-    to {transform: translateX(-100%);}
-  }
+}
 
-  //Carrusel de letras 
-  .marquee-wrapper {
-    overflow: hidden;
-  }
-  
-  .marquee {
+.marquee {
     display: flex;
     animation-name: marquee;
     animation-duration: 30s;
@@ -553,12 +534,47 @@ p.mb-4 {
     animation-timing-function: linear;
     animation-direction: alternate;
     transform: translateX(0);
+
     img {
-      padding: 1em;
+        padding: 1em;
     }
-  }
-  
-  @keyframes marquee {
-    from {transform: translateX(0);}
-    to {transform: translateX(-100%);}
-  }
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/* Carrusel de letras  */
+.marquee-wrapper {
+    overflow: hidden;
+}
+
+.marquee {
+    display: flex;
+    animation-name: marquee;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    transform: translateX(0);
+
+    img {
+        padding: 1em;
+    }
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
