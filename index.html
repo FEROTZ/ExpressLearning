@@ -29,6 +29,9 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    
+     <!-- Gallery stylesheet -->
+     <link rel="stylesheet" href="./css/gallery-certifications.css">
 </head>
 
 <body>
@@ -54,16 +57,22 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="../index.html" class="nav-item nav-link active">Inicio</a>
-                <a href="../about.html" class="nav-item nav-link">Conócenos</a>
-                <a href="../about.html" class="nav-item nav-link">Talleres</a>
-                <a href="../about.html" class="nav-item nav-link">Cursos</a>
-                <a href="./convocatorias.html" class="nav-item nav-link">Convocatorias</a>
-                <a href="../certifications.html" class="nav-item nav-link">Certificaciones</a>
-                <a href="../testimonial.html" class="nav-item nav-link">Embajadores</a>
+                <a href="../index.html" class="nav-item nav-link">Inicio</a>
+               <!--  <a href="../about.html" class="nav-item nav-link active">Conócenos</a> -->
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Servicios</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="courses.html" class="dropdown-item">Cursos</a>
+                        <a href="talleres.html" class="dropdown-item">Talleres</a>
+                    </div>
+                </div>
+               <!--  <a href="./convocatorias.html" class="nav-item nav-link">Convocatorias</a>
+                <a href="../certifications.html" class="nav-item nav-link">Certificaciones</a> -->
+                <a href="testimonial.html" class="nav-item nav-link">Embajadores</a>
                 <!--  <a href="../team.html" class="nav-item nav-link">Staff</a> -->
                 <!-- <a href="contact.html" class="nav-item nav-link">Contacto</a> -->
             </div>
+            <!--<a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block"><i class="bi bi-person"></i> Inicio de sesion</a>-->
         </div>
     </nav>
     <!-- Navbar End -->
@@ -98,7 +107,7 @@
                                 <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Cursos Elite</h5>
                                 <h1 class="display-3 text-white animated slideInDown">¡Conviértete en bilingüe en menos de un año!</h1>
                                 <p class="fs-5 text-white mb-4 pb-2"></p>
-                                <a href="InfoBanners/IniciaHablarCBB.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Leer mas</a>
+                                <a href="InfoBanners/AprendeIngles.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Leer mas</a>
                             </div>
                         </div>
                     </div>
@@ -113,7 +122,7 @@
                                 <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Cursos online</h5>
                                 <h1 class="display-3 text-white animated slideInDown">Olvídate de recursar niveles</h1>
                                 <p class="fs-5 text-white mb-4 pb-2"></p>
-                                <a href="InfoBanners/OlvidatedeR.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Leer mas</a>
+                                <a href="InfoBanners/AprendeIngles.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Leer mas</a>
                             </div>
                         </div>
                     </div>
@@ -129,36 +138,6 @@
                                 <h1 class="display-3 text-white animated slideInDown">Obtén certificaciones internacionales</h1>
                                 <p class="fs-5 text-white mb-4 pb-2"></p>
                                 <a href="InfoBanners/obtenCertificacion.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Leer mas</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/banderas.jpg" alt="">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-sm-10 col-lg-8">
-                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Casos de éxito</h5>
-                                <h1 class="display-3 text-white animated slideInDown">Nuestros embajadores</h1>
-                                <p class="fs-5 text-white mb-4 pb-2"></p>
-                                <a href="./testimonial.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated   slideInLeft">Leer mas</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/bannerconvocatorias.jpg" alt="">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-sm-10 col-lg-8">
-                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown"></h5>
-                                <h1 class="display-3 text-white animated slideInDown">Convocatorias 2023 - 2024</h1>
-                                <p class="fs-5 text-white mb-4 pb-2"></p>
-                                <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Leer mas</a>
                             </div>
                         </div>
                     </div>
@@ -244,7 +223,7 @@
                         <div class="position-relative overflow-hidden">
                             <img class="img-fluid" src="img/Servicios_Certificaciones.jpg" alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="certifications.html" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px;">Saber mas</a>
+                                <a href="testimonial.html" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px;">Saber mas</a>
                                 <!-- <a href="contact.html" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Contactanos</a> -->
                             </div>
                         </div>
@@ -253,7 +232,7 @@
                             <div class="mb-3">
                              
                             </div>
-                            <h5 class="mb-5">CERTIFICACIONES</h5>
+                            <h5 class="mb-5">EMBAJADORES</h5>
                         </div>
                         <div class="d-flex border-top">
                         </div>
@@ -429,6 +408,21 @@
         </div>
     </div>
     <!-- Testimonial End -->
+
+      <!-- Gallery Start -->
+      <div class="gallery">
+        <h1 class="title">Nuestro logros</h1>
+        <div class="container-gallery">
+            <img src="./img/certificacion-uno.jpeg" alt="Alumn" class="gallery-image">
+            <img src="./img/certificacion-dos.jpeg" alt="" class="gallery-image">
+            <img src="./img/certificacion-tres.jpeg" alt="" class="gallery-image">
+            <img src="/img/certificacion-cuatro.jpg" alt="Koi Fish" class="gallery-image">
+            <img src="/img/certificacion-cinco.jpeg" alt="Ibis Bird" class="gallery-image">
+            <img src="./img/certificacion-seis.jpeg" alt="Lemur" class="gallery-image">
+            <img src="./img/certificacion-siete.jpeg" alt="Berber Monkeys" class="gallery-image">
+        </div>
+    </div>
+    <!-- Gallery End -->
         
 
     <!-- Footer Start -->
