@@ -10,28 +10,27 @@
 }
 
 .title{
-    color: #fefae0;
+    color: #fff;
     font-family: Amita;
     margin: 20px auto;
     width: 450px;
     font-size: 3rem;
     text-align: center;
-    border-bottom: 10px double #bc6c25;
+    border-bottom: 10px double #29fff7;
 }
 
 .gallery-image {
     width: 450px;
     height: 300px;
     margin: 10px;
-    border: 10px solid #fefae0;
-    -webkit-filter: sepia(100%);
-    filter: sepia(100%);
+    border: 10px solid #29fff7;
+  
     transition-duration: 1s;
     object-fit: cover;
 }
 
 .gallery-image:hover {
-    border: 5px solid #fff;
+    border: 5px solid #29fff7;
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
