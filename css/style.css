@@ -3,6 +3,7 @@
     --primary: #29fff7;
     --light: #F0FBFC;
     --dark: #181d38;
+    --black: #161616
 }
 
 .fw-medium {
@@ -66,6 +67,10 @@
 
 .align-center {
     text-align: center;
+}
+
+.align-left{
+    text-align: end;
 }
 
 .whatsapp {
@@ -444,6 +449,25 @@
     border-color: var(--primary);
 }
 
+.btn.btn-back{
+    margin: 0 0 20px 0;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    font-weight: normal;
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    transition: .3s;
+    font-size: 2.5rem!important;
+}
+
+.btn.btn-back:hover{
+    color: var(--primary);
+}
+
 
 /*** Footer ***/
 .footer .btn.btn-social {
@@ -578,4 +602,33 @@ p.mb-4 {
     to {
         transform: translateX(-100%);
     }
+}
+
+.card{
+    background-color: var(--dark);
+}
+
+.card:hover{
+    background-color: var(--primary);
+}
+
+.card a{
+    color: #FFFFFF;
+}
+
+.card:hover a{
+    color: var(--black);
+}
+
+.card:hover h4{
+    color: var(--black);
+}
+
+.carousel-item {
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item.active {
+    transform: translateX(0);
 }
