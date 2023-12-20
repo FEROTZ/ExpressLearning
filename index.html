@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="utf-8">
-    <title>Express LEARNING online</title>
+    <title>Express Learning online</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
+    <meta content="escuela, inglés, online, cursos, flexibles, en linea, certificaciones, cursos, talleres" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
@@ -21,16 +20,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="./lib/animate/animate.min.css" rel="stylesheet">
+    <link href="./lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
     <!-- Gallery stylesheet -->
     <link rel="stylesheet" href="./css/gallery-certifications.css">
+    <!-- Parallax Stylesheet-->
+    <link rel="stylesheet" href="./css/parallax.css">
 </head>
 
 <body>
@@ -56,12 +57,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="../index.html" class="nav-item nav-link active">Inicio</a>
+                <a href="./index.html" class="nav-item nav-link active">Inicio</a>
                 <a href="./about.html" class="nav-item nav-link">Conócenos</a>
                 <a href="./cursos/index.html" class="nav-item nav-link">Cursos</a>
-                <a href="./talleres.html" class="nav-item nav-link">Talleres</a>
-                <a href="./certifications/index.html" class="nav-item nav-link">Certificaciones</a>
-                <a href="testimonial.html" class="nav-item nav-link">Embajadores</a>
+                <a href="./talleres/index.html" class="nav-item nav-link">Talleres</a>
+                <a href="./certificaciones/index.html" class="nav-item nav-link">Certificaciones</a>
+                <a href="./testimonial.html" class="nav-item nav-link">Embajadores</a>
                 <!--  <a href="../team.html" class="nav-item nav-link">Staff</a> -->
                 <!-- <a href="contact.html" class="nav-item nav-link">Contacto</a> -->
             </div>
@@ -158,6 +159,13 @@
         </div>
     </div>
     <!-- About End -->
+    <!-- Embajadores Start -->
+    <div class="container-xxl container-parallax">
+        <h1>Conoce a nuestros embajadores</h1>
+        <p class="fs-5 text-white">Descubre las historias inspiradoras de nuestros embajadores, los alumnos que han alcanzado grandes logros gracias a sus ganas de superarse.</p>
+        <a href="./testimonial.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Descubre más</a>
+    </div>
+    <!-- Embajadores End -->
     <!-- Courses Start -->
     <div class="container-xxl py-5">
         <div class="container">
@@ -207,15 +215,13 @@
                         <div class="position-relative overflow-hidden">
                             <img class="img-fluid" src="img/Servicios_Certificaciones.jpg" alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="testimonial.html" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px;">Saber mas</a>
-                                <!-- <a href="contact.html" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Contactanos</a> -->
+                                <a href="./certificaciones/index.html" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px;">Saber mas</a>
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
                             <h3 class="mb-0"></h3>
-                            <div class="mb-3">
-                            </div>
-                            <h5 class="mb-5">EMBAJADORES</h5>
+                            <div class="mb-3"></div>
+                            <h5 class="mb-5">CERTIFICACIONES</h5>
                         </div>
                         <div class="d-flex border-top">
                         </div>
@@ -226,8 +232,8 @@
     </div>
     <!-- Courses End -->
     <!-- Testimonial Start -->
-    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container">
+    <div class="container-xxl py-5">
+        <div class="container wow fadeInUp" data-wow-delay="0.1s">
             <div class="text-center">
                 <h6 class="section-title bg-white text-center text-primary px-3">Testimonios de usuarios</h6>
                 <h1 class="mb-5">Nuestros alumnos dicen</h1>
@@ -304,16 +310,19 @@
     </div>
     <!-- Testimonial End -->
     <!-- Gallery Start -->
-    <div class="gallery">
-        <h1 class="title">Nuestro logros</h1>
+    <div class="gallery wow fadeInUp" data-wow-delay="0.1s">
+        <div class="text-center">
+            <h6 class="section-title bg-white text-center text-primary px-3">Alumnos certificados</h6>
+            <h1 class="mb-5">Nuestros logros</h1>
+        </div>
         <div class="container-gallery">
-            <img src="./img/certificacion-uno.jpeg" alt="Alumn" class="gallery-image">
-            <img src="./img/certificacion-dos.jpeg" alt="" class="gallery-image">
-            <img src="./img/certificacion-tres.jpeg" alt="" class="gallery-image">
-            <img src="/img/certificacion-cuatro.jpg" alt="Koi Fish" class="gallery-image">
-            <img src="/img/certificacion-cinco.jpeg" alt="Ibis Bird" class="gallery-image">
-            <img src="./img/certificacion-seis.jpeg" alt="Lemur" class="gallery-image">
-            <img src="./img/certificacion-siete.jpeg" alt="Berber Monkeys" class="gallery-image">
+            <img src="./img/certificacion-uno.jpeg" alt="Alumno certificado uno" class="gallery-image">
+            <img src="./img/certificacion-dos.jpeg" alt="Alumno certificado dos" class="gallery-image">
+            <img src="./img/certificacion-tres.jpeg" alt="Alumno certificado tres" class="gallery-image">
+            <img src="/img/certificacion-cuatro.jpg" alt="Alumno certificado cuatro" class="gallery-image">
+            <img src="/img/certificacion-cinco.jpeg" alt="Alumno certificado cinco" class="gallery-image">
+            <img src="./img/certificacion-seis.jpeg" alt="Alumno certificado seis" class="gallery-image">
+            <img src="./img/certificacion-siete.jpeg" alt="Alumno certificado siete" class="gallery-image">
         </div>
     </div>
     <!-- Gallery End -->
@@ -327,7 +336,7 @@
                     <a class="btn btn-link" href="./about.html">Conócenos</a>
                     <a class="btn btn-link" href="./certifications/index.html">Certificaciones</a>
                     <a class="btn btn-link" href="./cursos/index.html">Cursos</a>
-                    <a class="btn btn-link" href="./talleres.html">Talleres</a>
+                    <a class="btn btn-link" href="./talleres/index.html">Talleres</a>
                     <!-- <a class="btn btn-link" href="">Docentes</a> -->
                 </div>
                 <div class="col-lg-4 col-md-8S">
@@ -364,10 +373,10 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="./lib/wow/wow.min.js"></script>
+    <script src="./lib/easing/easing.min.js"></script>
+    <script src="./lib/waypoints/waypoints.min.js"></script>
+    <script src="./lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="./lib/owlcarousel/owl.carousel.js"></script>
 
     <!-- Template Javascript -->

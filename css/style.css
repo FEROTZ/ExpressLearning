@@ -632,3 +632,7 @@ p.mb-4 {
 .carousel-item.active {
     transform: translateX(0);
 }
+
+.navbar-nav a.nav-item:focus{
+    color: #00ccc5!important;
+}
